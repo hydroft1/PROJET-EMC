@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.responsive {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(img/landscape.jpg);
+}
+
+iframe {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    color: rgb(0, 192, 192);
+}
+
+.navbar a {
+    color: rgb(240, 8, 8);
+}
+
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(180, 0, 0);
+}
+
+
+.navbar .nav-links ul {
+    display: flex;
+
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+    text-decoration: 6px 15px;
+    color: blue;
+}
+
+.navbar .nav-links ul li a
+{
+    text-decoration: 6px 15px;
+    padding: 6px 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.navbar .nav-links ul li a:hover,
+.navbar .nav-links ul li a.active
+{
+    background: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+}
